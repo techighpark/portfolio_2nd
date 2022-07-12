@@ -1,10 +1,11 @@
+import Layout from "@components/layout";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-green-300">
-      <h1 className="text-black">Portfolio</h1>
-    </div>
+    <Layout>
+      <div className="h-96"></div>
+    </Layout>
   );
 };
 
