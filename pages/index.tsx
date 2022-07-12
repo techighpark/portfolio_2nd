@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-red-300">
-      <h1 className="text-black">Title</h1>
+    <div className="bg-green-300">
+      <h1 className="text-black">Portfolio</h1>
     </div>
   );
 };
